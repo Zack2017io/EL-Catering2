@@ -1,0 +1,43 @@
+.card-body {
+    font-family: "Times New Roman", Georgia, Serif;
+    line-height: 1.5;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+.paragraph2 {
+    opacity: 0.75;
+}
+
+.hover-box {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-box::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background-color: transparent; 
+    transition: background-color 0.3s ease;
+}
+
+.hover-box:hover::after {
+    background-color: rgba(169, 165, 165, 0.5); 
+}
+
+
+.card-text {
+    padding: 12px 60px !important;
+}
+
+
+.hover-box:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
