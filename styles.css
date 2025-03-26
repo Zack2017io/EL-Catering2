@@ -40,4 +40,48 @@
 
 .hover-box:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+    
+.hero-section {
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+
+.menu-item-title, .menu-title{
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+
+
+
+.form-control {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+  box-shadow: none;
+}
+.form-control:focus {
+  border-bottom: 2px solid #007bff;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-grey {
+  background-color: lightgrey; /* Light grey background */
+  color: black; /* Black font color */
+  border: none; /* Optional: Remove default border */
+  padding: 10px 20px; /* Adjust padding as needed */
+  cursor: pointer; /* Pointer cursor for better UX */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.btn-grey:hover {
+  background-color: darkgrey; /* Dark grey on hover */
 }
